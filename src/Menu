@@ -1,0 +1,16 @@
+public class Menu {
+    private String id;
+    private String name;
+    private double price;
+    private String story;
+    private String location;
+
+    public Menu(String id, String name, double price, String story, String location) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.story = story;
+        this.location = location;
+    }
+
+}
