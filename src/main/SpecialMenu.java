@@ -5,7 +5,6 @@ public class SpecialMenu extends Menu {
         this.story = story; 
     }
 
-    // getters and setters untuk story
     public String getStory() {
         return story;
     }
