@@ -1,11 +1,11 @@
 public class Employee {
-    private String id;
-    private String name;
+    private String Employeeid;
+    private String Employeename;
     private String branch;
 
-    public Employee(String id, String name, String branch) {
-        this.id = id;
-        this.name = name;
+    public Employee(String Employeeid, String Employeename, String branch) {
+        this.Employeeid = Employeeid;
+        this.Employeename = Employeename;
         this.branch = branch;
     }
 
