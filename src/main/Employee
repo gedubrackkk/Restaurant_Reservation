@@ -1,0 +1,12 @@
+public class Employee {
+    private String id;
+    private String name;
+    private String branch;
+
+    public Employee(String id, String name, String branch) {
+        this.id = id;
+        this.name = name;
+        this.branch = branch;
+    }
+
+}
