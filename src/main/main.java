@@ -1,5 +1,5 @@
 package main;
-import java.sql.^;
+import java.sql.*;
 
 public class main {
 
