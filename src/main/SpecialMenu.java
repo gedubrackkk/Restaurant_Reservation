@@ -1,9 +1,8 @@
 public class SpecialMenu extends Menu {
-    private String story; // narasi cerita dari menu
-
+    private String story; 
     public SpecialMenu(String Menuid, String Menuname, double price, String location, String story) {
-        super(Menuid, Menuname, price, location); // memanggil konstruktor dari superclass (Menu)
-        this.story = story; // inisialisasi atribut tambahan untuk SpecialMenu
+        super(Menuid, Menuname, price, location); 
+        this.story = story; 
     }
 
     // getters and setters untuk story
